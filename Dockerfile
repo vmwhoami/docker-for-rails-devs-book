@@ -10,8 +10,7 @@ COPY . /usr/src/app
 CMD [ "bin/rails", "s", "-b", "0.0.0.0" ]
 
 # Add permissions to the app
-# sudo chmod 755 -R .
-
+#  sudo chown -R $USER:$USER .
 # tmp/pids/server.pid Delete it
 
 # Method to run rails server
