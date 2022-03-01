@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##  Add permissions to the app
+ `sudo chown -R $USER:$USER .`
 
-Things you may want to cover:
+## Delete this
+`tmp/pids/server.pid `
 
-* Ruby version
+<!-- Method to run rails server -->
+## Run a container
+`docker-compose run web /bin/sh`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<!-- docker run -p 3000:3000 docker-rails:v1 bin/rails s -b 0.0.0.0 -->
