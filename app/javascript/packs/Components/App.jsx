@@ -6,7 +6,6 @@ function App(props) {
   return (
   <div> 
     <HomePage/>
-    <h1>{props.name}!</h1>
   </div>
 
   )
